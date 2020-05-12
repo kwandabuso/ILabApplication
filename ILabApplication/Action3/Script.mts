@@ -2,7 +2,6 @@
 Browser("Home Page | iLAB").Page("CAREERS | iLAB").Link("South Africa").Click @@ hightlight id_;_Browser("Home Page | iLAB").Page("CAREERS | iLAB").Link("South Africa")_;_script infofile_;_ZIP::ssf2.xml_;_
 
  datatable.importsheet "C:\Users\kwanda.buso\Documents\kwanda\ILabApplication.xlsx",1,"readFromExcel"
- 
 Set desc = description.Create
 desc("micclass").value = "WebElement"
 desc("class").value = "wpjb-job_title wpjb-title"
