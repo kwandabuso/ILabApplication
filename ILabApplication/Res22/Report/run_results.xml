@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Cannot use parentheses when calling a Sub</Name>
+    <ErrorText>Cannot use parentheses when calling a Sub</ErrorText>
+    <Description>&lt;BR/&gt;Line (4): &amp;quot;datatable.ImportSheet(&amp;quot;C:\Users\kwanda.buso\Documents\kwanda\ILabApplication.xlsx&amp;quot;,1,&amp;quot;readFromExcel&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-05-11 23:20:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>3109d597f86243f6b25975ad6be1f32e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ec131b2e-491d-4d32-93e6-82f2c55a420d.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2020-05-11 23:20:06</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>4e7ba90d6383471c98d55d0eb74630e0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>readFromExcel</Name>
+    <Description />
+    <StartTime>2020-05-11 23:20:00</StartTime>
+    <Duration>6</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>f1328cc7de7b4a65909adee9f20c49c1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ILabApplication</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-05-11 23:19:55</StartTime>
+    <Duration>11</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>8a0de97e65aa41059f60faace1505eb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>English (United Kingdom)</Locale>
+      <User>WCORP\kwanda.buso</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16267</TotalMemory>
+      <HostName>wcorp.local\SA-L-063</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Microsoft Internet Explorer</Name>
+        <Path>C:\Program Files\Internet Explorer\IEXPLORE.EXE</Path>
+        <Version>11</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>https://www.ilabquality.com/</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res22</ResultName>
+    <RunStartTime>2020-05-11 23:19:55</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
