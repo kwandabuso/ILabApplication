@@ -1,1 +1,0 @@
-﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\kwanda\\UFT\\ILabApplication\\Res1',namePairs:[]}]};

@@ -1,6 +1,6 @@
 ﻿Navigate() @@ hightlight id_;_Browser("Home Page | iLAB").Page("Interns - BSC Computer").Link("Apply Online")_;_script infofile_;_ZIP::ssf4.xml_;_
-
-datatable.importsheet "C:\Users\kwanda.buso\Documents\kwanda\ILabApplication.xlsx",1,"readFromExcel"
+RelPath = Environment.Value("TestDir")
+datatable.importsheet RelPath+"\ILabApplication.xlsx",1,"readFromExcel"
 Browser("Home Page | iLAB").Page("Interns - BSC Computer").WebEdit("applicant_name").Set DataTable("Name", readTestDataExcel) @@ hightlight id_;_Browser("Home Page | iLAB").Page("Interns - BSC Computer").WebEdit("applicant name")_;_script infofile_;_ZIP::ssf5.xml_;_
 Browser("Home Page | iLAB").Page("Interns - BSC Computer").WebEdit("email").Set DataTable("Email", readTestDataExcel) @@ hightlight id_;_Browser("Home Page | iLAB").Page("Interns - BSC Computer").WebEdit("email")_;_script infofile_;_ZIP::ssf6.xml_;_
 Browser("Home Page | iLAB").Page("Interns - BSC Computer").WebEdit("phone").Set DataTable("PhoneNumber", readTestDataExcel) @@ hightlight id_;_Browser("Home Page | iLAB").Page("Interns - BSC Computer").WebEdit("phone")_;_script infofile_;_ZIP::ssf7.xml_;_
